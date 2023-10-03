@@ -14,6 +14,12 @@ import humidity from '../Assets/humidity.png'
 
 
 export const WeatherApp = () => {
+  
+  let api_key ="46dd8c6a1b5d341de5815963f8c14496";
+  const search = () => {
+    
+  }
+  
   return (
     <div className='container'>
       <div className="top-bar">
