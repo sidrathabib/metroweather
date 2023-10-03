@@ -22,7 +22,8 @@ export const WeatherApp = () => {
       return 0;
     }
   }
-  let url = `https://api.openweathermap.org/data/2.5/weather?q=London&units=Metric&appid=46dd8c6a1b5d341de5815963f8c14496`;
+  
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=London&units=Metric&appid=${api_key}`;
   
   return (
     <div className='container'>
