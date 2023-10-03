@@ -17,15 +17,19 @@ export const WeatherApp = () => {
   
   let api_key ="46dd8c6a1b5d341de5815963f8c14496";
   const search = () => {
-    
+    const element = document.getElementsByClassName("cityInput");
+    if(element[0].value==="") {
+      return 0;
+    }
   }
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=London&units=Metric&appid=46dd8c6a1b5d341de5815963f8c14496`;
   
   return (
     <div className='container'>
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder='Search'/>
        
-        <div className="search-icon">
+        <div className="search-icon" onClick={()=>{search()}}>
           <img src={search_icon} alt=""/>
         </div>
       </div>
