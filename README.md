@@ -1,3 +1,25 @@
+# Metro Weather 
+
+Need to check the weather in your city? No problem! Metro Weather has got you. Just type your city name 
+in the search bar, click the seearch icon, and voila!
+
+![Demo](demo.png)
+
+## Sid's Take
+I started my cat cafe project and it has been in the works. However, I've been wanting to work on something on a smaller scale for the sake of touching the back end element of coding. This weather app was the perfect opportunity to do so. I fetched an API and practiced accesing elements with jQuery and creating functions with Javascript to access data within the React framework. 
+
+### Some updates I want to make gradually: 
+1. Convert Celcius to Farenheit and let the user switch between the two (the original data was in Kelvin so I converted to metric at the least). 
+2. Change the kmh to mph for my own sake.
+3. Return error when invalid city name is typed
+4. Drop down search to find city 
+
+<div dir="rtl">Sid</div>
+<div dir="rtl">Complete Project #</div>
+<div dir="rtl">Start Time: End of Sept 2023</div>
+<div dir="rtl">End Time: Begining of Oct 2023</div>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
