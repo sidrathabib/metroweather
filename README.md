@@ -3,7 +3,7 @@
 Need to check the weather in your city? No problem! Metro Weather has got you. Just type your city name in the search bar, click the search icon, and voila!
 
 ## Sid's Take
-I started my cat cafe project and it has been in the works. However, I've been wanting to work on something on a smaller scale for the sake of touching the back end element of coding. This weather app was the perfect opportunity to do so. I fetched an API and practiced accesing elements with jQuery and creating functions with Javascript to access data within the React framework. 
+I started my full stack cat cafe project and it has been in the works. However, I've been wanting to work on something on a smaller scale for the sake of touching the back end element of coding. This weather app was the perfect opportunity to do so. I fetched an API and practiced accesing elements with jQuery and creating functions with Javascript to access data within the React framework. 
 
 ### Some updates I want to make gradually: 
 1. Convert Celcius to Farenheit and let the user switch between the two (the original data was in Kelvin so I converted to metric at the least). 
